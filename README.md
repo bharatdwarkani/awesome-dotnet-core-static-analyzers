@@ -69,7 +69,7 @@ Cake script does the following things
 
 # Running Cake Script in your local windows machine
 
-- Naviage to folder /build 
+- Navigate to folder /build 
 - Open Powershel in build folder location and type ./build
 ![Running Cake Script](https://github.com/bharatdwarkani/awesome-dotnet-core-static-analyzers/blob/master/images/Running-Cake-Script.PNG)  
 
