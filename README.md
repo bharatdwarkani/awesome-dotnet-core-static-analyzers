@@ -1,7 +1,7 @@
 # awesome-dotnet-core-static-analyzers
 Awesome collection of .NET Core Static Analyzers using the .NET Compiler Platform (Roslyn). A sample project along with Cake Script for Continuous integration is also included in this repository with some of Analyzers added through Nugget. 
 
-These analyzers helps in checking common mistakes, usage problems and enforcing coding standards. Every analyzers have options to exclude certain rules from analyzers globally. You can also create your own analyers [**Writing a roslyn analyzer**](https://www.meziantou.net/writing-a-roslyn-analyzer.htm).
+These analyzers helps in checking common mistakes, usage problems and enforcing coding standards. Every analyzers have options to exclude certain rules from analyzers globally. You can also create your own analyers. Checkout this guide [**Writing a roslyn analyzer**](https://www.meziantou.net/writing-a-roslyn-analyzer.htm).
 
 [**FXCopAnalyzers**](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers)  - Microsoft recommended code quality rules and .NET API usage rules, including the most important FxCop rules, implemented as analyzers using the .NET Compiler Platform (Roslyn). 
 
