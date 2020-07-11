@@ -36,7 +36,7 @@ Visit my site [**Share Tech Links**](https://sharetechlinks.com/)  for curated l
 **Pull requests are welcome for including new items in this list.**
 
 
-# Readme for Sample project present in this repository
+## Readme for Sample project present in this repository
 
 In sample project some of the mentioned Analyzers are included using Nugget Package.  
 
