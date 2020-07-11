@@ -3,6 +3,8 @@ Awesome collection of .NET Core Static Analyzers using the .NET Compiler Platfor
 
 These analyzers helps in checking common mistakes, usage problems and enforcing coding standards. Every analyzers have options to exclude certain rules from analyzers globally. You can also create your own analyers. Checkout this guide [**Writing a roslyn analyzer**](https://www.meziantou.net/writing-a-roslyn-analyzer.htm).
 
+[**Microsoft Reference Documentation**](https://docs.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview?view=vs-2019)
+
 [**FXCopAnalyzers**](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers)  - Microsoft recommended code quality rules and .NET API usage rules, including the most important FxCop rules, implemented as analyzers using the .NET Compiler Platform (Roslyn). 
 
 [**StyleCopAnalyzers**](https://www.nuget.org/packages/StyleCop.Analyzers/)  - An implementation of StyleCop's rules using Roslyn analyzers and code fixes
@@ -47,11 +49,11 @@ SA - Style Cop Analyzer Warnings
 RCS - Roslynator Analyzer Warnings
 ![VS Warnings](https://github.com/bharatdwarkani/awesome-dotnet-core-static-analyzers/blob/master/images/Visual-Studio-Output.png)  
 
-- You can also enable/disable rules using Rule Set file - [**CodeAnalysis.ruleset**](https://github.com/bharatdwarkani/awesome-dotnet-core-static-analyzers/blob/master/CodeAnalysis.ruleset)
+- You can also enable/disable rules by manually editing Rule Set file - [**CodeAnalysis.ruleset**](https://github.com/bharatdwarkani/awesome-dotnet-core-static-analyzers/blob/master/CodeAnalysis.ruleset) or you can change severity of rule from UI it will be reflected in ruleset files. There are options to supress warnings in particular file, method or block of code also.
 
-![Turn On or Off Rules](https://github.com/bharatdwarkani/awesome-dotnet-core-static-analyzers/blob/master/images/Turning-Rule-On-Off.png)  
+![Turning On or Off Rules](https://github.com/bharatdwarkani/awesome-dotnet-core-static-analyzers/blob/master/images/Turning-Rule-On-Off.png)  
 
-- you can add new analyzers using Nugget Packages. Several analyzers are available
+- you can add new analyzers using Nugget Packages. Several analyzers are available just search in Nugget Explorer "Analyzers"
 ![Adding new Analyzers](https://github.com/bharatdwarkani/awesome-dotnet-core-static-analyzers/blob/master/images/AddingAnalyzers.png) 
 
 
