@@ -1,0 +1,9 @@
+﻿{
+  "settings": {
+    "documentationRules": {
+      "xmlHeader": true,
+      "companyName": "Bharat Dwarkani",
+      "copyrightText": "Copyright (c) {companyName}. All rights reserved."
+    }
+  }
+}

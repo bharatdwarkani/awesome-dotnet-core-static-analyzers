@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Code Analysis Rules" Description="These rules focus on the most critical problems in your code, including potential security holes, application crashes, and other important logic and design errors. It is recommended to include this rule set in any custom rule set you create for your projects." ToolsVersion="10.0">
+  <Localization ResourceAssembly="Microsoft.VisualStudio.CodeAnalysis.RuleSets.Strings.dll" ResourceBaseName="Microsoft.VisualStudio.CodeAnalysis.RuleSets.Strings.Localized">
+    <Name Resource="CodeAnalysisRules_Name" />
+    <Description Resource="CodeAnalysisRules_Description" />
+  </Localization>
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1031" Action="None" />
+    <Rule Id="CA1822" Action="None" />
+    <Rule Id="CA2227" Action="None" />
+  </Rules>
+  <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
+    <Rule Id="SA1413" Action="None" />
+    <Rule Id="SA1101" Action="None" />
+    <Rule Id="SA1409" Action="Warning" />
+  </Rules>
+  <Rules AnalyzerId="Microsoft.AspNetCore.Mvc.Api.Analyzers" RuleNamespace="Microsoft.AspNetCore.Mvc.Api.Analyzers">
+    <Rule Id="API1002" Action="Warning" />
+    <Rule Id="API1003" Action="Warning" />
+  </Rules>
+  <Rules AnalyzerId="Microsoft.CodeQuality.Analyzers" RuleNamespace="Microsoft.CodeQuality.Analyzers">
+    <Rule Id="CA1055" Action="None" />
+	<Rule Id="CA1056" Action="None" />
+	<Rule Id="CA1508" Action="Warning" />
+  </Rules>
+  <Rules AnalyzerId="Microsoft.NetCore.Analyzers" RuleNamespace="Microsoft.NetCore.Analyzers">
+    <Rule Id="CA5358" Action="Warning" />
+  </Rules>
+  <Rules AnalyzerId="Microsoft.NetCore.CSharp.Analyzers" RuleNamespace="Microsoft.NetCore.CSharp.Analyzers">
+    <Rule Id="CA2201" Action="Warning" />
+  </Rules>
+  <Rules AnalyzerId="Roslynator.CSharp.Analyzers" RuleNamespace="Roslynator.CSharp.Analyzers">
+    <Rule Id="RCS1234" Action="Warning" />
+    <Rule Id="RCS1233" Action="Warning" />
+    <Rule Id="RCS1235" Action="Warning" />
+    <Rule Id="RCS1232" Action="Warning" />
+    <Rule Id="RCS1230" Action="Warning" />
+    <Rule Id="RCS1231" Action="Warning" />
+    <Rule Id="RCS1227" Action="Warning" />
+    <Rule Id="RCS1224" Action="Warning" />
+    <Rule Id="RCS1222" Action="Warning" />
+    <Rule Id="RCS1221" Action="Warning" />
+    <Rule Id="RCS1220" Action="Warning" />
+    <Rule Id="RCS1219" Action="Warning" />
+    <Rule Id="RCS1218" Action="Warning" />
+    <Rule Id="RCS1216" Action="Warning" />
+    <Rule Id="RCS1215" Action="Warning" />
+    <Rule Id="RCS1214" Action="Warning" />
+    <Rule Id="RCS1213" Action="Warning" />
+    <Rule Id="RCS1212" Action="Warning" />
+    <Rule Id="RCS1209" Action="Warning" />
+    <Rule Id="RCS1208" Action="Warning" />
+    <Rule Id="RCS1206" Action="Warning" />
+    <Rule Id="RCS1204" Action="Warning" />
+    <Rule Id="RCS1202" Action="Warning" />
+    <Rule Id="RCS1200" Action="Warning" />
+    <Rule Id="RCS1199" Action="Warning" />
+    <Rule Id="RCS1198" Action="Warning" />
+    <Rule Id="RCS1197" Action="Warning" />
+    <Rule Id="RCS1196" Action="Warning" />
+    <Rule Id="RCS1194" Action="Warning" />
+    <Rule Id="RCS1190" Action="Warning" />
+    <Rule Id="RCS1187" Action="Warning" />
+    <Rule Id="RCS1186" Action="Warning" />
+    <Rule Id="RCS1185" Action="Warning" />
+    <Rule Id="RCS1179" Action="Warning" />
+    <Rule Id="RCS1175" Action="None" />
+    <Rule Id="RCS1174" Action="Warning" />
+    <Rule Id="RCS1173" Action="Warning" />
+    <Rule Id="RCS1172" Action="Warning" />
+    <Rule Id="RCS1171" Action="Warning" />
+    <Rule Id="RCS1166" Action="Warning" />
+    <Rule Id="RCS1164" Action="Warning" />
+    <Rule Id="RCS1163" Action="Warning" />
+    <Rule Id="RCS1162" Action="Warning" />
+    <Rule Id="RCS1160" Action="Warning" />
+    <Rule Id="RCS1159" Action="Warning" />
+    <Rule Id="RCS1157" Action="Warning" />
+    <Rule Id="RCS1156" Action="Warning" />
+    <Rule Id="RCS1155" Action="Warning" />
+    <Rule Id="RCS1154" Action="Warning" />
+    <Rule Id="RCS1146" Action="Warning" />
+    <Rule Id="RCS1135" Action="Warning" />
+    <Rule Id="RCS1132" Action="Warning" />
+    <Rule Id="RCS1130" Action="Warning" />
+    <Rule Id="RCS1127" Action="Warning" />
+    <Rule Id="RCS1126" Action="Warning" />
+    <Rule Id="RCS1123" Action="Warning" />
+    <Rule Id="RCS1114" Action="Warning" />
+    <Rule Id="RCS1112" Action="Warning" />
+    <Rule Id="RCS1111" Action="Warning" />
+    <Rule Id="RCS1110" Action="Warning" />
+    <Rule Id="RCS1107" Action="Warning" />
+    <Rule Id="RCS1106" Action="Warning" />
+    <Rule Id="RCS1105" Action="Warning" />
+    <Rule Id="RCS1104" Action="Warning" />
+    <Rule Id="RCS1103" Action="Warning" />
+    <Rule Id="RCS1102" Action="None" />
+    <Rule Id="RCS1101" Action="Warning" />
+    <Rule Id="RCS1100" Action="None" />
+    <Rule Id="RCS1099" Action="Warning" />
+    <Rule Id="RCS1098" Action="Warning" />
+    <Rule Id="RCS1097" Action="Warning" />
+    <Rule Id="RCS1096" Action="Warning" />
+    <Rule Id="RCS1093" Action="Info" />
+    <Rule Id="RCS1090" Action="Warning" />
+    <Rule Id="RCS1088" Action="Hidden" />
+    <Rule Id="RCS1087" Action="Hidden" />
+    <Rule Id="RCS1085" Action="None" />
+    <Rule Id="RCS1084" Action="Warning" />
+    <Rule Id="RCS1081" Action="Warning" />
+    <Rule Id="RCS1080" Action="Warning" />
+    <Rule Id="RCS1077" Action="Warning" />
+    <Rule Id="RCS1075" Action="Warning" />
+    <Rule Id="RCS1072" Action="Warning" />
+    <Rule Id="RCS1068" Action="Warning" />
+    <Rule Id="RCS1065" Action="Warning" />
+    <Rule Id="RCS1064" Action="Warning" />
+    <Rule Id="RCS1063" Action="Warning" />
+    <Rule Id="RCS1060" Action="Warning" />
+    <Rule Id="RCS1059" Action="Warning" />
+    <Rule Id="RCS1058" Action="Warning" />
+    <Rule Id="RCS1057" Action="Warning" />
+    <Rule Id="RCS1056" Action="Warning" />
+    <Rule Id="RCS1052" Action="Warning" />
+    <Rule Id="RCS1067" Action="Hidden" />
+    <Rule Id="RCS1050" Action="None" />
+    <Rule Id="RCS1049" Action="Warning" />
+    <Rule Id="RCS1047" Action="Warning" />
+    <Rule Id="RCS1046" Action="None" />
+    <Rule Id="RCS1045" Action="None" />
+    <Rule Id="RCS1044" Action="None" />
+    <Rule Id="RCS1041" Action="Warning" />
+    <Rule Id="RCS1038" Action="Warning" />
+    <Rule Id="RCS1035" Action="Hidden" />
+    <Rule Id="RCS1033" Action="Warning" />
+    <Rule Id="RCS1032" Action="Warning" />
+    <Rule Id="RCS1030" Action="Warning" />
+    <Rule Id="RCS1029" Action="Warning" />
+    <Rule Id="RCS1028" Action="Warning" />
+    <Rule Id="RCS1027" Action="Warning" />
+    <Rule Id="RCS1026" Action="Warning" />
+    <Rule Id="RCS1025" Action="Warning" />
+    <Rule Id="RCS1021" Action="Warning" />
+    <Rule Id="RCS1020" Action="Warning" />
+    <Rule Id="RCS1019" Action="Warning" />
+    <Rule Id="RCS1018" Action="None" />
+    <Rule Id="RCS1017" Action="Warning" />
+    <Rule Id="RCS1016" Action="None" />
+    <Rule Id="RCS1015" Action="Warning" />
+    <Rule Id="RCS1014" Action="Warning" />
+    <Rule Id="RCS1013" Action="Warning" />
+    <Rule Id="RCS1007" Action="Warning" />
+    <Rule Id="RCS1004" Action="None" />
+    <Rule Id="RCS1003" Action="None" />
+    <Rule Id="RCS1002" Action="None" />
+    <Rule Id="RCS1001" Action="None" />
+    <Rule Id="RCS1024" Action="Warning" />
+    <Rule Id="RCS1037" Action="None" />
+    <Rule Id="RCS1036" Action="Hidden" />
+    <Rule Id="RCS1040" Action="Warning" />
+    <Rule Id="RCS1042" Action="Warning" />
+    <Rule Id="RCS1073" Action="Warning" />
+    <Rule Id="RCS1078" Action="None" />
+    <Rule Id="RCS1094" Action="Hidden" />
+    <Rule Id="RCS1113" Action="Warning" />
+    <Rule Id="RCS1129" Action="Warning" />
+    <Rule Id="RCS1143" Action="Warning" />
+    <Rule Id="RCS1145" Action="Warning" />
+    <Rule Id="RCS1151" Action="Warning" />
+    <Rule Id="RCS1161" Action="Warning" />
+    <Rule Id="RCS1176" Action="None" />
+    <Rule Id="RCS1181" Action="Warning" />
+    <Rule Id="RCS1188" Action="Warning" />
+    <Rule Id="RCS1189" Action="Warning" />
+    <Rule Id="RCS1191" Action="Warning" />
+    <Rule Id="RCS1192" Action="None" />
+    <Rule Id="RCS1195" Action="None" />
+    <Rule Id="RCS1205" Action="Hidden" />
+    <Rule Id="RCS1211" Action="Warning" />
+    <Rule Id="RCS1223" Action="None" />
+    <Rule Id="RCS1226" Action="Warning" />
+    <Rule Id="RCS1228" Action="Warning" />
+    <Rule Id="RCS1118" Action="None" />
+    <Rule Id="RCS1005" Action="None" />
+    <Rule Id="RCS1006" Action="None" />
+    <Rule Id="RCS1207" Action="None" />
+    <Rule Id="RCS1183" Action="None" />
+    <Rule Id="RCS1142" Action="None" />
+    <Rule Id="RCS1136" Action="None" />
+    <Rule Id="RCS1076" Action="None" />
+    <Rule Id="RCS1069" Action="None" />
+    <Rule Id="RCS1066" Action="Warning" />
+    <Rule Id="RCS1062" Action="None" />
+    <Rule Id="RCS1061" Action="Warning" />
+    <Rule Id="RCS1055" Action="None" />
+    <Rule Id="RCS1023" Action="None" />
+    <Rule Id="RCS1124" Action="Warning" />
+  </Rules>
+</RuleSet>
