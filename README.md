@@ -1,9 +1,13 @@
 # awesome-dotnet-core-static-analyzers
 Awesome collection of .NET Core Static Analyzers using the .NET Compiler Platform (Roslyn). A sample project along with Cake Script for Continuous integration is also included in this repository with some of Analyzers added through Nugget. 
 
-These analyzers helps in checking common mistakes, usage problems and enforcing coding standards. Every analyzers have options to exclude certain rules from analyzers globally. You can also create your own analyers. Checkout this guide [**Writing a roslyn analyzer**](https://www.meziantou.net/writing-a-roslyn-analyzer.htm).
+These analyzers helps in checking common mistakes, usage problems and enforcing coding standards. Every analyzers have options to exclude certain rules from analyzers globally. You can also create your own analyers.
 
+**References**
 [**Microsoft Reference Documentation**](https://docs.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview?view=vs-2019)
+[**How To Write a C# Analyzer and Code Fix**](https://github.com/dotnet/roslyn/wiki/How-To-Write-a-C%23-Analyzer-and-Code-Fix)
+[**Writing your own roslyn analyzer**](https://www.meziantou.net/writing-a-roslyn-analyzer.htm)  
+[**Write Better Code Faster with Roslyn Analyzers**](https://devblogs.microsoft.com/dotnet/write-better-code-faster-with-roslyn-analyzers/)
 
 **Pull requests are welcome for including new items in this list. Star this repo if you like the curated list**
 
@@ -42,7 +46,7 @@ Visit my site [**Share Tech Links**](https://sharetechlinks.com/)  for curated l
 
 ## Usage guide for sample project present in this repository
 
-In sample project some of the mentioned Analyzers are included using Nugget Package.  
+In sample project some of the mentioned Analyzers are included using Nugget Package.  Fixes are not done in project it is just for demonstration purpose.
 
 - Clone this repository  
 - Open sln file in Visual Studio 2019, open any controller file. Build the project and wait for few minutes. Some times analyzer output might not show just try 2 to 3 times rebuilding project and wait for few minutes. You can find Analyzers errors in Warning Tab. You can identify warnings are produced from which analzers by checking prefix.  
