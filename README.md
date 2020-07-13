@@ -33,6 +33,8 @@ These analyzers helps in checking common mistakes, usage problems and enforcing 
 
 [**roslyn-analyzers**](https://github.com/dotnet/roslyn-analyzers)  - Roslyn analyzers analyze your code for style, quality and maintainability, design and other issues. 
 
+[**ReSharper Command Line Tools**](https://www.jetbrains.com/help/resharper/ReSharper_Command_Line_Tools.html)  - ReSharper Command Line Tools is a set of free cross-platform standalone tools that help you integrate automatic code quality analysis into your CI, version control or any other server.
+
 Visit my site [**Share Tech Links**](https://sharetechlinks.com/)  for curated list of tech related interesting blog links.
 
 **Pull requests are welcome for including new items in this list.**
