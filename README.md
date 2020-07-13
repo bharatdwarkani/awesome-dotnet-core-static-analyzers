@@ -5,6 +5,9 @@ These analyzers helps in checking common mistakes, usage problems and enforcing 
 
 [**Microsoft Reference Documentation**](https://docs.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview?view=vs-2019)
 
+**Pull requests are welcome for including new items in this list. Star this repo if you like the curated list**
+
+
 [**FXCopAnalyzers**](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers)  - Microsoft recommended code quality rules and .NET API usage rules, including the most important FxCop rules, implemented as analyzers using the .NET Compiler Platform (Roslyn). 
 
 [**StyleCopAnalyzers**](https://www.nuget.org/packages/StyleCop.Analyzers/)  - An implementation of StyleCop's rules using Roslyn analyzers and code fixes
@@ -36,9 +39,6 @@ These analyzers helps in checking common mistakes, usage problems and enforcing 
 [**ReSharper Command Line Tools**](https://www.jetbrains.com/help/resharper/ReSharper_Command_Line_Tools.html)  - ReSharper Command Line Tools is a set of free cross-platform standalone tools that help you integrate automatic code quality analysis into your CI, version control or any other server.
 
 Visit my site [**Share Tech Links**](https://sharetechlinks.com/)  for curated list of tech related interesting blog links.
-
-**Pull requests are welcome for including new items in this list.**
-
 
 ## Usage guide for sample project present in this repository
 
