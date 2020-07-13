@@ -3,11 +3,11 @@ Awesome collection of .NET Core Static Analyzers using the .NET Compiler Platfor
 
 These analyzers helps in checking common mistakes, usage problems and enforcing coding standards. Every analyzers have options to exclude certain rules from analyzers globally. You can also create your own analyers.
 
-**References**
-[**Microsoft Reference Documentation**](https://docs.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview?view=vs-2019)
-[**How To Write a C# Analyzer and Code Fix**](https://github.com/dotnet/roslyn/wiki/How-To-Write-a-C%23-Analyzer-and-Code-Fix)
-[**Writing your own roslyn analyzer**](https://www.meziantou.net/writing-a-roslyn-analyzer.htm)  
-[**Write Better Code Faster with Roslyn Analyzers**](https://devblogs.microsoft.com/dotnet/write-better-code-faster-with-roslyn-analyzers/)
+**References**  
+[**Microsoft Reference Documentation**](https://docs.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview?view=vs-2019)  
+[**How To Write a C# Analyzer and Code Fix**](https://github.com/dotnet/roslyn/wiki/How-To-Write-a-C%23-Analyzer-and-Code-Fix)  
+[**Writing your own roslyn analyzer**](https://www.meziantou.net/writing-a-roslyn-analyzer.htm)   
+[**Write Better Code Faster with Roslyn Analyzers**](https://devblogs.microsoft.com/dotnet/write-better-code-faster-with-roslyn-analyzers/)  
 
 **Pull requests are welcome for including new items in this list. Star this repo if you like the curated list**
 
